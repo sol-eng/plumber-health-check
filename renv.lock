@@ -3,8 +3,8 @@
     "Version": "3.4.3",
     "Repositories": [
       {
-        "Name": "CRAN",
-        "URL": "https://cran.rstudio.com"
+        "Name": "RSPM",
+        "URL": "https://packagemanager.rstudio.com/cran/latest"
       }
     ]
   },
@@ -53,15 +53,10 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.0.0.9002",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "r-lib",
-      "RemoteRepo": "later",
-      "RemoteRef": "master",
-      "RemoteSha": "0fb877adcfdf8166eb5b505fe99bcf2f9bedacd3",
-      "Hash": "9398333dc5e9c03d2ec15ae99dcfd41a"
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "6d927978fc658d24175ce37db635f9e5"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -93,15 +88,10 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.4.5.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "rlang",
-      "RemoteUsername": "r-lib",
-      "RemoteRef": "master",
-      "RemoteSha": "3fdbb00a22207c867f81786e0c53c565ab844bfd",
-      "Hash": "66fc3f60d2b2c86a3d791a40ac231f57"
+      "Version": "0.4.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1cc1b38e4db40ea6eb19ab8080bbed3b"
     },
     "stringi": {
       "Package": "stringi",
